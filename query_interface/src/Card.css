@@ -1,0 +1,15 @@
+.card{
+    background-color: rgb(255, 255, 255);
+    color: rgb(54, 54, 61);
+    height: 240px;
+    width: 60%;
+    box-shadow: 7px 7px 20px grey;
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    padding:20px;
+    margin: 8px;
+}

@@ -1,0 +1,106 @@
+.navbar{
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    box-shadow:
+    
+    0 0 0 0.2em #b59494, ;
+    justify-content: space-between;
+    width: auto;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+}
+input[id=search] {
+    width: 650px;
+    height: 30px;
+    padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+    border: 1px solid rgb(148, 147, 147);
+  }
+  input[id=Start] {
+    width: 90px;
+    height: 30px;
+    padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+    border: 1px solid rgb(148, 147, 147);
+  }
+  input[id=End] {
+    width: 90px;
+    height: 30px;
+    padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+    border: 1px solid rgb(148, 147, 147);
+  }
+  
+  button {
+    width: 100px;
+    padding: 10px;
+    height: 50px;
+    
+    border-radius: 4px;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+    background-color: yellow;
+  }
+.navbar__items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    box-shadow:
+    
+    0 0 0 0.2em #b59494, ;
+    justify-content: space-between;
+    width: 850px;
+    height: 80px;
+     
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+.timestapm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    box-shadow:
+    
+    0 0 0 0.2em #b59494, ;
+    justify-content: space-between;
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+ 
