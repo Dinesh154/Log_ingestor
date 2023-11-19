@@ -39,6 +39,9 @@ function App() {
       });
       console.log(response.data);
       setisloading(false);
+      if (response.data.length === 0) {
+        alert("No logs found");
+      }
       setLogs(response.data);
     } catch (error) {
       console.error(error);
@@ -70,9 +73,13 @@ function App() {
       </span>
       <div className="body_content">
         <div className="filterContainer"><Filter handleSelect={handleSelect} /></div>
+        {
         
-        { Logs &&<div className="cardContainer">
+      }
+        {isloading && < div className="loading">Loading....</div>}
+        { !isloading&&Logs &&<div className="cardContainer">
           {
+            
             Logs.map((log) => {
               return <Card log={log} />;
             })

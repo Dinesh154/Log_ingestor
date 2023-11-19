@@ -26,6 +26,17 @@ div{
   top:142px;
   left:18px;
 }
+.loading{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size:40px;
+}
 .cardContainer{
   width: 100%;
   display: flex;
